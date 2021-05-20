@@ -75,6 +75,7 @@ const moles = [
     },
 ];
 
+//moles go from sad to fed to leaving to hungry to gone
 const getNextStatus = mole => {
     switch (mole.status) {
         case "sad":

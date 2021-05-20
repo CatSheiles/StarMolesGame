@@ -19,7 +19,7 @@ p {
 }
 
 body {
-    cursor:url(./moleImages/cursor.png), default;
+    cursor:url(./moleImages/cursor.png), default; /*bird cursor*/
     background-color: #c0c86d;
     display: flex;
     justify-content: center;
@@ -27,10 +27,11 @@ body {
     flex-direction: column;
     padding: 0;
     margin: 0;
-    height: 100vh;
-    width: 100vw;
+    height: 100vh; /*vertical height hack, sits game in centre of screen*/
+    width: 100vw; /*vertical width viewport*/
 }
 
+/*note this game is styled for a desktop 1920x1080, not mobile device*/
 .bg {
     background-image: url(./moleImages/background.png);
     background-repeat: no-repeat;
@@ -43,7 +44,7 @@ body {
 }
 
 .hole {
-    background: black;
+    background-color: black;
     border-radius: 50%;
     overflow: visible;
     width: 267px;
